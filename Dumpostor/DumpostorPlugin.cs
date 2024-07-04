@@ -96,6 +96,8 @@ public sealed partial class DumpostorPlugin : BasePlugin
             new EnumDumper<SupportedLangs>(),
             new EnumDumper<TaskTypes>(),
             new EnumDumper<RpcCalls>(),
+            new EnumDumper<SpecialGameModes>(),
+            new EnumDumper<RulesPresets>(),
         };
 
         foreach (var dumper in dumpers)

@@ -18,7 +18,7 @@ internal sealed class DummyMapLoadHacks
         HudManager.Instance.ShadowQuad = shadowQuad;
 
         HudManager.Instance.Chat = go.AddComponent<ChatController>();
-        HudManager.Instance.GameSettings = go.AddComponent<TextMeshPro>();
+        //HudManager.Instance.GameSettings = go.AddComponent<TextMeshPro>();
 
         Camera.main!.gameObject.AddComponent<FollowerCamera>();
 
